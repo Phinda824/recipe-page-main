@@ -30,10 +30,10 @@
 
 /* Content text*/
 .content-text{
-    margin-top: -30px;
+    margin-top: -70px;
 }
 .content-text h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     color: hsl(24, 5%, 18%);
 }
@@ -141,11 +141,21 @@ span{
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 975px){
     .container{
         padding: 0;
     }
     .content{
         width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+    .image img{
+        border-radius: 0;
+    }
+
+    /*content text*/
+    .content-text{
+        padding: 60px;
     }
 }
